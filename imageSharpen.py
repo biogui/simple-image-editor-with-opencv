@@ -6,6 +6,3 @@ def sharpen(image):
 	newImage = cv2.filter2D(image, -1, kernel)
 
 	return newImage
-
-img = cv2.imread("bird2.jpg")
-cv2.imwrite("sharpenBird.jpg", img)

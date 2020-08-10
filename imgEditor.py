@@ -7,7 +7,7 @@ from blurFunction import blur
 from sharpenFunction import sharpen
 
 def menu(fileName, dirPath):
-	cmd = input("What to do whith {}? ".format(fileName)).lower()
+	cmd = input("Now, what to do whith {}? ".format(fileName)).lower()
 
 	originalImg = imread(fileName)
 
@@ -44,6 +44,7 @@ def main():
 
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")
-	for fileName in argv[1:]: menu(fileName, dirPath)
+	for fileName in argv[1:]:
+		menu(fileName, dirPath)
 
 if __name__ == "__main__": main()

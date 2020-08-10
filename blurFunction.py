@@ -1,11 +1,18 @@
 import cv2
 
 def blur(image, nv):
-	# kernels = [1, 3, 5, 9, 11]
-	# k = kernels[nv]
-	# newImage = cv2.blur(image, (k, k))
+	print("Choice the blur intensity")
+	print("0 - very weak")
+	print("1 - weak")
+	print("2 - avarage")
+	print("3 - strong")
+	print("4 - very strong")
+	i = input(">> ")
 
-	kernel = 5
-	newImage = cv2.blur(image, (kernel, kernel))
+	kernels = [1, 3, 5, 9, 11]
+	k = kernels[i]
+
+	print("Creating the new image...")
+	newImage = cv2.blur(image, (k, k))
 
 	return newImage

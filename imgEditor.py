@@ -2,9 +2,9 @@ import os
 from sys import argv
 from cv2 import imread, imwrite
 
-from resize.py import resize
-from blur.py import blur
-from sharpen.py import sharpen
+from resize import resize
+from blur import blur
+from sharpen import sharpen
 
 def menu(fileName, dirPath, i):
 	cmd = input("Now, what to do whith {}? ".format(fileName)).lower()
@@ -45,6 +45,9 @@ def main():
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")
 	for idx, fileName in enumerate(argv[1:]):
+		if not os.path.exists(fileName):
+			print("{} not exists... continuing".format(fileName))
+			continue
 		menu(fileName, dirPath, idx)
 
 if __name__ == "__main__": main()

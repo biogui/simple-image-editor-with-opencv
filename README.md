@@ -18,9 +18,9 @@ After that, clone the repository with:
 
 `$ git clone https://github.com/biogui/simple-image-editor-with-openCV ImageEditor`
 
-`$ cd ImageEditor`
+Now, just run the following commands:
 
-Now, just run the following command:
+`$ cd ImageEditor`
 
 `$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`
 

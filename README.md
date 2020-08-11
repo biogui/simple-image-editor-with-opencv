@@ -6,6 +6,7 @@
 [EN]
 
 Hello, I'm Bio
+
 And this is simple toy project involving processing image using Python/OpenCV
 
 ## Usade

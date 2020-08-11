@@ -1,10 +1,10 @@
-from cv2 import filter2D
+from cv2 import filter2D as filter
 import numpy as np
 
 def sharpen(image):
-	kernel = np.ones((5, 5), np.float32)/25
+	kernel = np.array([[0, -1, 0], [-1, 5, -1], [0, -1, 0]])
 
 	print("Creating the new image...")
-	newImage = filter2D(image, -1, kernel)
+	newImage = filter(image, -1, kernel)
 
 	return newImage

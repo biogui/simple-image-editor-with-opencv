@@ -1,4 +1,5 @@
 import os
+from re import compile
 from sys import argv
 from cv2 import imread, imwrite
 
@@ -45,10 +46,16 @@ def main():
 
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")
+
+	folderChars = set('\/')
 	for idx, fileName in enumerate(argv[1:]):
-		if not os.path.exists(fileName):
+		if any((c in folderChars) for c in fileName):
+			print("Invalid file format, try again run with only name file")
+			continue
+		elif not os.path.exists(fileName):
 			print("{} not exists... continuing".format(fileName))
 			continue
+
 		menu(fileName, dirPath, idx)
 
 if __name__ == "__main__": main()

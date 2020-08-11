@@ -1,2 +1,8 @@
 # Image Editor with OpenCv
-A simple toy project involving processing image using Python/OpenCV
+[![Py3.8.2](https://img.shields.io/badge/Python-2%20%26%203-green.svg)]()
+[![OpenCV](https://img.shields.io/badge/Python-2%20%26%203-green.svg)]()
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/biogui/simple-image-editor-with-openCV/LICENSE.md)
+
+[EN] A simple toy project involving processing image using Python/OpenCV
+
+## Usade

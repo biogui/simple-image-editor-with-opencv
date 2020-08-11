@@ -7,7 +7,7 @@ Hi, I'm [Bio](https://github.com/biogui)!
 
 And this is my fisrt personal project: a simple photo editor involving basic image processing using Python/OpenCV module
 
-Thanks for testing, feedbacks are welcome [here](https://t.me/gui_bio) :)
+Thanks for testing, feedbacks are awesome! Feel free to contact me on telegram [here](https://t.me/gui_bio) :)
 
 ## Usade
 Get the updated versions of Python and OpenCV module for python, if you don't have it just follow the tutorials linked below:

@@ -11,4 +11,5 @@ Get the updated versions of Python and OpenCV module for python, if you don't ha
 * [OpenCV](https://pypi.org/project/opencv-python/)
 
 After this, just run the following command:
+
 `$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`

@@ -1,4 +1,5 @@
 from cv2 import resize as rszCV
+from validChoice import validChoice
 
 def choiceDimesions():
 	print("You need to choose the resolutions type:")
@@ -12,8 +13,8 @@ def choiceDimesions():
 
 			isValidType = True
 		elif type[0] == "m":
-			height = int(input("Enter the height: "))
-			width = int(input("now, the width: "))
+			height = validChoice(input("Enter the height: "), 0)
+			width = validChoice(input("now, the width: "), 0)
 
 			isValidType = True
 		elif type[0] == "v" or type[0] == "h":
@@ -23,7 +24,8 @@ def choiceDimesions():
 			print("0 - 4:3 (1024 x 728)")
 			print("1 - 16:9 (1280 x 720)")
 			print("2 - 21:9 (2560 x 1080)")
-			c = int(input("Choose>> "))
+
+			c = validChoice(input("Choose>> "), 3)
 
 			x, y = stdResolutions[c] if type[0] == "h" else stdResolutions[c][::-1]
 			height, width = x, y

@@ -7,7 +7,8 @@ from blur import blur
 from sharpen import sharpen
 
 def menu(fileName, dirPath, i):
-	cmd = input("Now, what to do whith {}? ".format(fileName)).lower()
+	print("Now, what to do whith {}?".format(fileName))
+	cmd = input(">> ")
 
 	originalImg = imread(fileName)
 

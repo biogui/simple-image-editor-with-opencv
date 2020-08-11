@@ -39,9 +39,9 @@ def main():
 		exit()
 
 	print("This editor has the following commands:")
-	print(" *Image [r]esize")
-	print(" *Apply [b]lur")
-	print(" *Apply [f]ilter")
+	print(" •Image [r]esize")
+	print(" •Apply [b]lur")
+	print(" •Apply [f]ilter")
 
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")

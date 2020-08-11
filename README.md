@@ -6,7 +6,9 @@
 [EN] A simple toy project involving processing image using Python/OpenCV
 
 ## Usade
-Get the updated versions of Python and OpenCV module, if you don't have it just follow the tutorials linked below:
+Get the updated versions of Python and OpenCV module for python, if you don't have it just follow the tutorials linked below:
 * [Python](https://realpython.com/installing-python/)
-* [OpenCV](https://realpython.com/installing-python/)
-just run the following command:
+* [OpenCV](https://pypi.org/project/opencv-python/)
+
+After this, just run the following command:
+`$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`

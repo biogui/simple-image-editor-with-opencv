@@ -9,7 +9,7 @@ Hello, I'm [Bio](https://github.com/biogui)
 
 And this is simple toy project involving processing image using Python/OpenCV module
 
-Thanks for testing, [feedbacks](https://t.me/gui_bio) are welcome :)
+Thanks for testing, feedbacks are welcome [:)](https://t.me/gui_bio) 
 
 ## Usade
 Get the updated versions of Python and OpenCV module for python, if you don't have it just follow the tutorials linked below:

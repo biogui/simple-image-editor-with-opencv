@@ -1,4 +1,4 @@
-from cv2 import blur as bCV
+from cv2 import blur as blurCV
 from validChoice import validChoice
 
 def blur(image):
@@ -15,6 +15,6 @@ def blur(image):
 	k = kernels[i]
 
 	print("Creating the new image...")
-	newImage = bCV(image, (k, k))
+	newImage = blurCV(image, (k, k))
 
 	return newImage

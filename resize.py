@@ -1,4 +1,4 @@
-from cv2 import resize as rszCV
+from cv2 import resize as resizeCV
 from validChoice import validChoice
 
 def choiceDimesions():

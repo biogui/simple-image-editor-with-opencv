@@ -47,7 +47,7 @@ def main():
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")
 
-	folderChars = set('\/')
+	folderChars = set('*\/')
 	for idx, fileName in enumerate(argv[1:]):
 		if any((c in folderChars) for c in fileName):
 			print("Invalid file format, try again run with only name file")

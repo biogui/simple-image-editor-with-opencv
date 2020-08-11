@@ -1,6 +1,7 @@
 def validChoice(choice, range=0):
 	isValidCmd = False
 	while (not isValidCmd):
+
 		if choice.isnumeric():
 			if range == 0:
 				isValidCmd = True

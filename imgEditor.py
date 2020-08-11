@@ -6,15 +6,15 @@ from resizeFunction import resize
 from blurFunction import blur
 from sharpenFunction import sharpen
 
-def menu(fileName, dirPath):
-	cmd = input("What to do whith {}? ".format(fileName)).lower()
+def menu(fileName, dirPath, i):
+	cmd = input("Now, what to do whith {}? ".format(fileName)).lower()
 
 	originalImg = imread(fileName)
 
 	isValidCmd = False
 	while (not isValidCmd):
 		if cmd[0] == "r":
-			newImg = resize(originalImg, 500, 100)
+			newImg = resize(originalImg)
 			isValidCmd = True
 		elif cmd[0] == "b":
 			newImg = blur(originalImg)
@@ -44,6 +44,7 @@ def main():
 
 	print("First, enter the path to the directory where you want to save the news edits?")
 	dirPath = input(">> ")
-	for fileName in argv[1:]: menu(fileName, dirPath)
+	for idx, fileName in enumerate(argv[1:]):
+		menu(fileName, dirPath, idx)
 
 if __name__ == "__main__": main()

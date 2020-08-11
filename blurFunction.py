@@ -1,11 +1,18 @@
-import cv2
+from cv2 import blur as bCV
 
-def blur(image, nv):
-	# kernels = [1, 3, 5, 9, 11]
-	# k = kernels[nv]
-	# newImage = cv2.blur(image, (k, k))
+def blur(image):
+	print("Choice the blur intensity")
+	print("0 - very weak")
+	print("1 - weak")
+	print("2 - avarage")
+	print("3 - strong")
+	print("4 - very strong")
+	i = int(input(">> "))
 
-	kernel = 5
-	newImage = cv2.blur(image, (kernel, kernel))
+	kernels = [1, 3, 5, 9, 11]
+	k = kernels[i]
+
+	print("Creating the new image...")
+	newImage = bCV(image, (k, k))
 
 	return newImage

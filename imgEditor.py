@@ -2,9 +2,9 @@ import os
 from sys import argv
 from cv2 import imread, imwrite
 
-from resizeFunction import resize
-from blurFunction import blur
-from sharpenFunction import sharpen
+from resize.py import resize
+from blur.py import blur
+from sharpen.py import sharpen
 
 def menu(fileName, dirPath, i):
 	cmd = input("Now, what to do whith {}? ".format(fileName)).lower()

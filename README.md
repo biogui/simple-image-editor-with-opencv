@@ -1,2 +1,2 @@
-# image-processing-with-python
-A toy project involving processing image using Python/OpenCV
+# Image Editor with OpenCv
+A simple toy project involving processing image using Python/OpenCV

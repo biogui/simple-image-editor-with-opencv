@@ -5,7 +5,7 @@
 
 [EN]
 
-Hello, I'm [Bio](https://github.com/biogui)
+Hello, I'm [Bio](https://github.com/biogui)!
 
 And this is simple toy project involving processing image using Python/OpenCV module
 

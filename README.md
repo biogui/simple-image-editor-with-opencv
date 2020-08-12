@@ -9,7 +9,7 @@ And this is my fisrt personal project: a simple photo editor involving basic ima
 
 Thanks for testing, feedbacks are awesome! Feel free to contact me on telegram [here](https://t.me/gui_bio) :)
 
-## Usade
+## Usage
 Get the updated versions of Python and OpenCV module for python, if you don't have it just follow the tutorials linked below:
 * [Python](https://realpython.com/installing-python/)
 * [OpenCV](https://pypi.org/project/opencv-python/)

@@ -21,7 +21,6 @@ After that, clone the repository with:
 Now, just run the following commands:
 
 >`$ cd ImageEditor`
-
 >`$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`
 
 There are only three features in the program: resize, apply blur and apply a convolution filter. Just follow the instructions in the program and choose what will be done within that 

@@ -1,5 +1,5 @@
 # Image Editor with OpenCV
-[![Py3.8.2](https://img.shields.io/badge/Python-3.8.2-blueviolet.svg)](https://docs.python.org/release/3.8.2/whatsnew/changelog.html#changelog)
+[![Py3.8](https://img.shields.io/badge/Python-3.8-blueviolet.svg)](https://docs.python.org/release/3.8/whatsnew/changelog.html#changelog)
 [![OpenCV](https://img.shields.io/badge/openCV-4.3.0-blueviolet.svg)](https://opencv.org/opencv-4-3-0/)
 [![license](https://img.shields.io/badge/license-MIT-blueviolet.svg)](https://github.com/biogui/simple-image-editor-with-openCV/blob/master/LICENSE)
 
@@ -16,12 +16,12 @@ Get the updated versions of Python and OpenCV module for python, if you don't ha
 
 After that, clone the repository with:
 
-`$ git clone https://github.com/biogui/simple-image-editor-with-openCV ImageEditor`
+>`$ git clone https://github.com/biogui/simple-image-editor-with-openCV ImageEditor`
 
 Now, just run the following commands:
 
-`$ cd ImageEditor`
+>`$ cd ImageEditor`
 
-`$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`
+>`$ python imgEditor.py <file1 name> <file2 name> <file3 name> ...`
 
 There are only three features in the program: resize, apply blur and apply a convolution filter. Just follow the instructions in the program and choose what will be done within that 
